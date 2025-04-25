@@ -76,28 +76,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# listen_Port API 监听端口
-# ssl_LicensePath ssl证书地址
-# imagePath_Origin 原图路径
-# imagePath_Processed 处理后图像路径
-# rateLimit 单 IP 下 API 速率限制，设置为 0 则无限制
-# database_Name sqlite 数据库名称,字符串类型
-# database_Cache sqlite 缓存数量，默认值为 256
-# compress_image_quality
-# strict_http 是否强制使用 https 协议
-# server_host 服务器地址
-
-database_Name = "test.db"
-database_Cache = 256
-listen_Port = 20001
-imagePath_Origin = "C:\\AAA"
-imagePath_Processed = "C:\\BBB"
-compress_image_quality = 75
-strict_https = False
-rateLimit = 5  # 允许的最大请求数
-time_window = 60  # 时间窗口（秒）
-server_host = "0.0.0.0"  # 服务器的地址，默认为0.0.0.0
-
 # 使用字典存储每个 IP 的请求记录
 request_counts = defaultdict(list)
 
