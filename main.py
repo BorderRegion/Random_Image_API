@@ -25,8 +25,8 @@ DEFAULT_CONFIG = {
     "database_Name": "test.db",
     "database_Cache": 256,
     "listen_Port": 20001,
-    "imagePath_Origin": "\Origin",
-    "imagePath_Processed": "\Processed",
+    "imagePath_Origin": "Origin",
+    "imagePath_Processed": "Processed",
     "compress_image_quality": 75,
     "strict_https": False,
     "rateLimit": 5,  # 允许的最大请求数
