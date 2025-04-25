@@ -1,0 +1,10 @@
+database_Name: test.db
+database_Cache: 256
+listen_Port: 20001
+imagePath_Origin: Origin
+imagePath_Processed: Processed
+compress_image_quality: 75
+strict_https: false
+rateLimit: 5
+time_window: 60
+server_host: 0.0.0.0
