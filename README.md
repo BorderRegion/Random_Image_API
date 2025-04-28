@@ -120,8 +120,7 @@ curl http://localhost:20001/image_get/<alias>
 
 1. **图片格式**: 当前仅支持 JPEG 格式的图片压缩。如果需要支持其他格式，请修改 `compress_image` 函数。
 2. **安全性**: 请确保 `config.yaml` 文件的安全性，避免泄露敏感信息。
-3. **性能优化**: 对于大规模图片处理场景，建议使用分布式存储或云存储。
-4. **HTTPS**: 如果启用 `strict_https`，请确保服务器已正确配置 SSL 证书。
+3. **HTTPS**: 如果启用 `strict_https`，请确保服务器已正确配置 SSL 证书。
 
 ---
 
